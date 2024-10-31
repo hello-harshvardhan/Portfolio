@@ -1,0 +1,84 @@
+body{
+    background-color: lightblue;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.education{
+    min-height: 100vh;
+    width: 100%;
+    padding: 78px 0px;
+    background-color: rgb(223, 186, 186);
+}
+.education img{
+    border: 2px solid #f30a0a;
+    box-shadow: 0 0 5px #f30a0a,
+                0 0 25px #f30a0a;
+height: 550px;
+width:25% ;
+border-radius: 5em;
+transition: 0.5s;
+animation-name: strech;
+animation-duration: 1.5s;
+animation-timing-function: ease-out;
+animation-delay: 0;
+}
+.main{
+    width: 1200px;
+    min-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.education-text h1{
+    color: white;
+font-size: 80px;
+font-weight: 600;
+text-transform: capitalize;
+margin-bottom: 20px;
+text-align: right;
+}
+.education-text h4{
+    color: white;
+    font-size: 28px;
+    text-transform: 25px;
+    margin-bottom: 0.4em;
+}
+.education-text p{
+    color: black;
+    text-align: right;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 38px;
+    margin-bottom: 45px;
+}
+button{
+    background: transparent;
+    color: #f30a0a;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid #f30a0a;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s ease;
+    text-align: right;
+}
+button:hover{
+    background: #f30a0a;
+    color:white;
+    border: 2px solid #f30a0a;
+    box-shadow: 0 0 5px #f30a0a,
+                0 0 25px #f30a0a;
+                cursor: pointer;
+        transform: scale(1.1);        
+}
+.portfolio{
+ margin-left: 0.5em;   
+}
